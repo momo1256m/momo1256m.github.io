@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>吉致青春</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div id="wrapper"> 
+    	<div id="header">
+    		<h1> <strong>Claude Monet</strong></h1>
+    		<span class="header-text">forever   Impressionism  </span>
+ 		</div>
+	</div>>
+  <ul id="button">
+          <li><a href="index.html">About</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="links.html">Links</a></li>
+          <li><a href="story.html">Story</a></li>
+  </ul>
+</body>
+</html>
