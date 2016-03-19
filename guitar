@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name ="URL" content="http://www.nchulongredguitarcamp.com.tw" />
+	<meta name="keywords" content="吉致青春,中興吉他營,吉他營,長虹" />
+	<title>吉致青春</title>
+	<link rel="stylesheet" type="text/css" href="all.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="a.css" media="screen and (max-width: 767px)">
+	<link rel="stylesheet" type="text/css" href="b.css" media="screen and (min-width: 768px) and (max-width: 979px)">
+	<link rel="stylesheet" type="text/css" href="c.css" media="screen and (min-width: 1200px)">
+	<link rel="stylesheet" type="text/css" href="d.css" media="screen and (max-device-width: 480px)">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css">
+    <style>
+		.space {
+    			height: 52px;
+		}
+		
+		#fx {
+   			 max-width: 100%;
+    		height: auto;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	    </div>
+	    <div class="collapse navbar-collapse">
+	      <ul class="nav navbar-nav col-sm-11 col-sm-push-1">
+	        <li class="col-sm-2"><a href="#">最新消息</a></li>
+	        <li class="col-sm-2"><a href="#about">營隊介紹</a></li>
+	        <li class="col-sm-2"><a href="#contact">師資介紹</a></li>
+	        <li class="col-sm-2"><a href="#contact">交通方式</a></li>
+	        <li class="col-sm-2"><a href="#contact">報名方式</a></li>
+	      </ul>
+	    </div><!--/.nav-collapse -->
+	  </div>
+	</div>
+	<div class="space"></div>
+	<div id="logo">
+		<img id="fx" src="http://res1.windows.microsoft.com/resbox/en/windows/main/4cee3e54-7fa6-4665-a65e-79087a111197_4.jpg" alt="test1">
+	</div>
+	<div id="最新消息">
+		<img id="fx" src="http://res2.windows.microsoft.com/resbox/en/windows/main/681cfc55-cf11-42dd-9178-ae0e2932b573_4.jpg" alt="test2">
+	</div>
+	<div id="營隊介紹">
+		<img id="fx" src="http://res2.windows.microsoft.com/resbox/en/windows/main/fc35f5b1-8013-413c-b99e-ed5d45ca53b3_4.jpg" alt="test3">
+	</div>
+	<div id="師資介紹">
+		<img id="fx" src="http://res2.windows.microsoft.com/resbox/en/windows/main/3f6b1271-d902-4449-9caf-94a83f74b58e_4.jpg" alt="test3">
+	</div>
+	<div id="交通方式">
+		<img id="fx" src="http://res2.windows.microsoft.com/resbox/en/windows/main/01fdadc8-e0e2-46a2-aac8-50b174f40cca_4.jpg" alt="test4">
+	</div>
+	<div id="報名方式">
+		<img id="fx" src="http://res2.windows.microsoft.com/resbox/en/windows/main/62a50d18-c4f4-49f1-8f68-35ff97222b4e_4.jpg" alt="test5">
+	</div>
+
+
+
+
+
+
+
+
+
+
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
