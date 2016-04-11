@@ -11,8 +11,19 @@
 	<link rel="stylesheet" type="text/css" href="c.css" media="screen and (min-width: 1200px)">
 	<link rel="stylesheet" type="text/css" href="d.css" media="screen and (max-device-width: 480px)">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0;">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css">
+   	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css">
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.js"></script>
+	
+    <style>
+    	#container {
+		  padding-top:15px;
+		  padding-left:50px;
+		  padding-right:30px;
+		  padding-bottom:40px;
+		  border: 1px solid 000000;
+		} 
+    </style>
 </head>
 <body>
 	
@@ -49,8 +60,82 @@
 		 	</div>
 		</div>
 		
+	<font face="微軟正黑體">
+
+	
 
 
+	</div>
+          <div id='myphoto' class="column">
+        <div class="ui centered card">
+          <div class="ui slide masked reveal image">
+            <img src="http://images.plurk.com/3282417_5927736d04e877f3738d355e83bb903e.gif" class="visible content">
+            <img src="http://i.imgur.com/vuoJbt7.jpg" class="hidden content">
+          </div>
+          <div class="content">
+            <div class="header">阿東老師</div>
+            <div class="meta">
+              <span class="date">阿東老師〝吉他手背後的推手〞</span>
+            </div>
+          </div>
+          <div class="extra content">
+            <button id="showmybtn" class="ui grey basic button">
+              了解更多
+            </button>
+              <!-- show modal -->
+            <div class="ui modal">
+              <i class="close icon"></i>
+              <div class="header">
+                阿東老師
+              </div>
+              <div id="about_me" class="ui two column grid">
+                <div class="ui column large image">
+                  <img src="http://i.imgur.com/vuoJbt7.jpg" class="visible content">
+                </div>
+                <div class="ui column description">
+                   <p>
+		      	<font size="4"><b>阿東老師〝吉他手背後的推手〞</b></font>
+		      	<ul>
+			      	<li>維修技師 流行樂器維修技師 電 木吉他 bass 烏克麗麗 精修改裝。</li>
+					<li>愛聽音樂 以成音混音為樂 為台灣許多樂手愛用技師。 </li>
+					<li>台灣數個小眾樂器品牌幕後品質維護推手。 </li>
+				</ul>
+				<font size="4"><b>工作經歷：</b></font>
+				<ul>
+					<li>2015 擔任 mayson 吉他 中區維修技師</li>
+					<li>2014 擔任 捷克FURCH 吉他 中區維修技師</li>
+					<li>2013 擔任 LIGAR 木吉他台灣區總技師 </li>
+					<li>擔任 tanglewood 木吉他 台灣區總技師 </li>
+					<li>擔任 Vintage 電 木 bass 台灣區總技師 </li>
+					<li>2011~ 夢想樂器成立 擔任專職吉他維修技師 </li>
+					<li>2011 阿東吉他維修工作室 正式成立 </li>
+					<li>2010 轉戰樂器維修 阿東吉他維修工作室 網誌成立 主編</li> 
+					<li>2008 燈光音響硬體公司 專任成音師</li>
+					<li>2008 陸軍樂隊 燈光音響組 </li>
+					<li>2006 新國自在商場 跨年晚會 現場成音</li>
+					<li>2007 新自在商場30場 爵士現場演出 現場成音</li> 
+				</ul>
+				<br><font size="4"><b>工作作品：</b></font></br>
+				請參閱
+				<ul>  
+					<li>痞客邦"阿東吉他維修工作室" 網誌</li>
+					<li>google 搜尋 台中吉他維修</li>
+					<li>FB搜尋〝阿東吉他維修工作室〞</li>
+				</ul>
+			  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	
+	
+
+
+
+	</font>
 	<div class="ui black inverted vertical footer segment">
 		<h4 class="ui inverted header">本營隊由以下單位贊助舉辦</h4>
 		<div class="ui center aligned container">
@@ -82,5 +167,11 @@
 			</div>
 		</div>	
 	</div>
+	<script type="text/javascript">
+		 $("#showmybtn").click(function(){
+		    $('.ui.modal')
+		      .modal('show');
+		  });
+	</script>
 </body>
 
