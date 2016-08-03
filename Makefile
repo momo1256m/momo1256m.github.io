@@ -2,7 +2,7 @@ install:
 	pip install -r requirements.txt
 
 test:
-	python crawler.py test.json;python test.py
+	python crawler.py "http://www.gomaji.com/index.php?city=Taichung&tag_id=101" test.json;python test.py
 
 clean:
 	rm -f *.jpg
